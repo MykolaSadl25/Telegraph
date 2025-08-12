@@ -7,7 +7,13 @@
 font-size: 20px;
 font-weight: 700;
 line-height: 1.15;
-margin-right: 922px;
+margin-right: 260px;
+@media screen and (min-width:768px) {
+       margin-right: 550px;
+    }
+    @media screen and (min-width:1170px) {
+        margin-right: 922px;
+    }
 }
 
 &__btn{

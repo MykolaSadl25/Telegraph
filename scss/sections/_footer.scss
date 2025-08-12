@@ -1,0 +1,33 @@
+.footer{
+    padding-bottom: 80px;
+
+    &__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__text{
+        color: #00194A;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+
+    &__list{
+        display: flex;
+        gap: 40px;
+    }
+
+    &__link{
+        color: #00194A;
+text-align: right;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+}

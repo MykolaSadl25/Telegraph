@@ -1,0 +1,141 @@
+.messaging{
+    padding-bottom: 130px;
+
+    &__boxes{
+        display: flex;
+        flex-direction: column-reverse;
+@media screen and (min-width:1170px) {
+    flex-direction: row;
+    }
+    }
+
+    &__img{
+        width: 381px;
+height: 508px;
+border-radius: 8px;
+    }
+
+    &__images{
+        position: relative;
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        position: absolute;
+        top: 294px;
+        left: 60px;
+        @media screen and (min-width:1170px) {
+       top: 294px;
+        left: 132px;
+    }
+    }
+
+    &__item{
+        padding: 10px 10px 15px 20px;
+        display: flex;
+        align-items: center;
+        width: 400px;
+        border-radius: 10px;
+background: #FFF;
+box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.03);
+    }
+
+    &__image{
+        width: 60px;
+height: 60px;
+    }
+
+    &__wrap{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-left: 15px;
+        margin-right: 21px;
+    }
+    &__title{
+        color: #00194A;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+
+    &__text{
+        color: #00194A;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+    }
+
+    &__box{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-end;
+    }
+
+    &__time{
+        color: #00194A;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+    }
+
+    &__number{
+        color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 5px;
+border-radius: 8px;
+background: #FF0043;
+width: 24px;
+height: 24px;
+    }
+
+    &__desc{
+        margin-left: 0;
+        margin-right: 0;
+    @media screen and (min-width:768px) {
+       margin-left: 0px;
+        margin-top: 162px;
+    }
+    @media screen and (min-width: 1170px) {
+       margin-left: 217px;
+        margin-top: 162px;
+    }
+    }
+
+    &__heading{
+        color: #00194A;
+font-family: Roboto;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.42; /* 142.857% */
+width: 466px;
+margin-bottom: 30px;
+    }
+
+    &__subtext{
+        color: #00194A;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 1.55; /* 155.556% */
+opacity: 0.8;
+width: 466px;
+margin-bottom: 20px;
+    }
+}

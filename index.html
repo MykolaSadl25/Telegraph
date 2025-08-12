@@ -11,6 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
@@ -57,10 +58,11 @@
                 </svg>
                 <h2 class="features__title">Android</h2>
                 <p class="features__desc">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                <a class="features__link" href="#">Try Beta For Free</a>
-                <svg class="feature__cloud">
+                <a class="features__link" href="#">Try Beta For Free
+                  <svg class="features__cloud">
                     <use href="./image/telgraph.svg#icon-download"></use>
                 </svg>
+                </a>
             </li>
             <li class="features__item">
                 <svg class="features__icon">
@@ -68,10 +70,11 @@
                 </svg>
                 <h2 class="features__title">iPhone</h2>
                 <p class="features__desc">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                <a class="features__link" href="#">Try Beta For Free</a>
-                <svg class="feature__cloud">
+                <a class="features__link" href="#">Try Beta For Free
+                  <svg class="features__cloud">
                     <use href="./image/telgraph.svg#icon-download"></use>
                 </svg>
+                </a>
             </li>
             <li class="features__item">
                 <svg class="features__icon">
@@ -79,37 +82,50 @@
                 </svg>
                 <h2 class="features__title">Mac or Windows</h2>
                 <p class="features__desc">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                <a class="features__link" href="#">Try Beta For Free</a>
-                <svg class="feature__cloud">
+                <a class="features__link" href="#">Try Beta For Free
+                  <svg class="features__cloud">
                     <use href="./image/telgraph.svg#icon-download"></use>
                 </svg>
+                </a>
             </li>
         </ul>
         </div>
       </section>
       <section class="messaging">
-        <div class="container">
+        <div class="container messaging__boxes">
           <div class="messaging__images">
             <img class="messaging__img" src="./image/man.jpg" alt="man">
           <ul class="messaging__list">
             <li class="messaging__item">
               <img class="messaging__image" src="./image/wife.jpg" alt="Wife">
+              <div class="messaging__wrap">
               <h2 class="messaging__title">Wife</h2>
               <p class="messaging__text">It is a long established fact that a…</p>
-              <p class="messaging__time">11:39 PM</p>
+              </div>
+              <div class="messaging__box">
+                <p class="messaging__time">11:39 PM</p>
               <p class="messaging__number">10</p>
+              </div>
             </li>
             <li class="messaging__item">
-              <img src="./image/girlfriend.jpg" alt="Girlfriend">
-              <h2 class="messaging__title">Girlfriend</h2>
+              <img class="messaging__image" src="./image/girlfriend.jpg" alt="Girlfriend">
+              <div class="messaging__wrap">
+                <h2 class="messaging__title">Girlfriend</h2>
               <p class="messaging__text">It is a long established fact that a…</p>
-              <p class="messaging__time">11:39 PM</p>
+              </div>
+              <div class="messaging__box">
+                <p class="messaging__time">11:39 PM</p>
+              </div>
             </li>
             <li class="messaging__item">
-              <img src="./image/unknown.jpg" alt="Unknown Girl">
-              <h2 class="messaging__title">Unknown Girl</h2>
+              <img class="messaging__image" src="./image/unknown.jpg" alt="Unknown Girl">
+              <div class="messaging__wrap">
+                <h2 class="messaging__title">Unknown Girl</h2>
               <p class="messaging__text">It is a long established fact that a…</p>
-              <p class="messaging__time">11:39 PM</p>
+              </div>
+              <div class="messaging__box">
+                <p class="messaging__time">11:39 PM</p>
+              </div>
             </li>
           </ul>
           </div>
@@ -122,44 +138,44 @@
         </div>
       </section>
       <section class="sharing">
-        <div class="container">
+        <div class="container sharing__box">
           <div class="sharing__text">
             <h2 class="sharing__title">Sharing Cool Stuff With Your Community</h2>
           <p class="sharing__desc">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,
             If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.</p>
           </div>
           <div class="sharing__features">
-            <ul>
-              <li>
+            <ul class="sharing__list">
+              <li class="sharing__item">
                 <svg class="sharing__icon">
                   <use href="./image/telgraph.svg#icon-shield"></use>
                 </svg>
                 <h2 class="sharing__heading">Security by Default</h2>
-                <p>It is a long established fact that a reader will be distracted by the readable content.</p>
+                <p class="sharing__subtitle">It is a long established fact that a reader will be distracted by the readable content.</p>
               </li>
-              <li>
+              <li class="sharing__item">
                 <svg class="sharing__icon">
                   <use href="./image/telgraph.svg#icon-document"></use>
                 </svg>
                 <h2 class="sharing__heading">Document Share</h2>
-                <p>It is a long established fact that a reader will be distracted by the readable content.</p>
+                <p class="sharing__subtitle">It is a long established fact that a reader will be distracted by the readable content.</p>
               </li>
-              <li>
+              <li class="sharing__item">
                 <svg class="sharing__icon">
                   <use href="./image/telgraph.svg#icon-messages"></use>
                 </svg>
-                <h2 class="sharing-heading">Say What's On Your Mind</h2>
-                <p>It is a long established fact that a reader will be distracted by the readable content.</p>
+                <h2 class="sharing__heading">Say What's On Your Mind</h2>
+                <p class="sharing__subtitle">It is a long established fact that a reader will be distracted by the readable content.</p>
               </li>
             </ul>
           </div>
         </div>
       </section>
       <section class="keep">
-        <div class="container">
+        <div class="container keep__box">
           <div class="keep__images">
-            <img src="./image/woman.jpg" alt="woman">
-          <img src="./image/messages.png" alt="messages">
+            <img class="keep__img" src="./image/woman.jpg" alt="woman">
+          <img  class="keep__position" src="./image/messages.png" alt="messages">
           </div>
           <div class="keep__desc">
             <h2 class="keep__title">Keep In Touch With The Groups Of People.</h2>
@@ -168,7 +184,7 @@
         </div>
       </section>
       <section class="start">
-        <div class="container">
+        <div class="container start__box">
           <h2 class="start__title">Let’s Start With Quick App</h2>
         <p class="start__text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
         <button class="start__btn" type="button">Request For Early Access</button>
@@ -176,7 +192,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="container footer__box">
         <p class="footer__text">© Telegraph. 2020 — All rights reserved.</p>
       <ul class="footer__list">
         <li class="footer__item"><a class="footer__link" href="https://x.com/?lang=en-gb">Twitter</a></li>

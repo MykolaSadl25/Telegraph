@@ -3,25 +3,36 @@
 
     &__cover{
     display: flex;
+    flex-direction: column;
+    @media screen and (min-width:768px) {
+       flex-direction: column;
+    }
+    @media screen and (min-width:1170px) {
+       flex-direction: row;
+    }
 }
 
 &__title{
-    width: 552px;
     color: var(--text-color);
 font-size: 60px;
 font-weight: 500;
 line-height: 1.41; /* 141.667% */
 margin-top: 107px;
 margin-bottom: 20px;
+@media screen and (min-width:768px) {
+       width: 552px;
+    }
 }
 
 &__text{
-    width: 537px;
     color: var(--text-color);
 font-size: 18px;
 font-weight: 300;
 line-height: 28px; /* 155.556% */
 margin-bottom: 50px;
+@media screen and (min-width:768px) {
+       width: 537px;
+    }
 }
 
 &__btn{
@@ -39,8 +50,11 @@ margin-bottom: 103px;
 }
 
 &__image{
-    width: 655px;
+    width: 470px;
 height: 604px;
 flex-shrink: 0;
+@media screen and (min-width:768px) {
+       width: 537px;
+    }
 }
 }
